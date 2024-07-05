@@ -7,7 +7,7 @@ public class AmazonShopping {
 		Shopping shop = new Shopping();
 
 		// sc1
-		shop.login("noman@gmail.com", "noman@123").search("t-shirt").addToCart("t-shirt").doPayment("1234", 123)
+		shop.login("noman@gmail.com", "noman@123").search("t-shirt").addToCart("t-shirt").doPayment("1234", 1234)
 				.generateOrder().logout();
 		
 		System.out.println("+++++++++++++++++++++++++");
